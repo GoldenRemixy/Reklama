@@ -1,0 +1,101 @@
+body
+{
+    background-color: #f3f3f3;
+    font-family: "Trajan Pro Regular";
+    font-weight: 0;
+    color: #252525;
+}
+
+img
+{
+    width: 40%;
+}
+
+#panele_gorny
+{
+    background-color: #5f9c45;
+    color: #f2d26d;
+    letter-spacing: 5;
+    font-size: 24pt;
+    text-align: center;
+    padding: 1;
+}
+
+#stopka
+{
+    background-color: #5f9c45;
+    height: 60px;
+    width: 100%;
+
+    font-family: "Verdana Regular";
+    font-weight: 0px;
+    letter-spacing: 5pt;
+    font-size: 12px;
+}
+
+#button .wybieracz
+{
+    background-color: #5f9c45;
+    padding: 20px 50px 20px;
+    color: #f2d26d;
+    float: left;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+#button .wybieracz:hover
+{
+    background-color: #f2d26d;
+    color: #5f9c45;
+}
+
+
+.tekst1
+{
+    text-align: center;
+    font-size: 32pt;
+    letter-spacing: 5;
+}
+
+.tekst2
+{
+    text-align: center;
+    letter-spacing: 5;
+    font-size: 28pt;
+}
+
+.tekst3
+{
+    text-align: center;
+    letter-spacing: 5;
+    font-size: 20pt;
+    width: 45%;
+    overflow: hidden;
+}
+
+.logo, img
+{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+.buttonmash
+{
+    background-color: #5f9c45;
+    padding: 1px 80px 1px;
+}
+
+.kopia
+{
+    text-align: right;
+    padding: 20px 50px 20px;
+    color: #f2d26d;
+}
+
+@keyframes fade 
+{
+    from
+    {
+        opacity: 0;
+    }    
+}

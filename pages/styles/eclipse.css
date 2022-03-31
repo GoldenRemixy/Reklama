@@ -1,0 +1,190 @@
+body
+{
+    background-color: #f3f3f3;
+    color: #f3f3f3;
+}
+
+#panele_gorny
+{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+}
+
+#panele_zdjecia
+{
+    width: 90%;
+    height: 100%;
+}
+
+
+#panele_wyzszy
+{
+    color: #101010;
+    text-align: center;
+    font-family: "Verdana Regular";
+    font-weight: 0px;
+    letter-spacing: 10pt;
+    height: 50%;
+    width: 100%;
+    padding-top: 20%;
+
+    animation: fade2 ;
+    animation-duration: 3s;
+}
+
+#stopka
+{
+    background-color: #101010;
+    height: 60px;
+    width: 100%;
+
+    font-family: "Verdana Regular";
+    font-weight: 0px;
+    letter-spacing: 5pt;
+    font-size: 12px;
+}
+
+#button .wybieracz
+{
+    background-color: #101010;
+    padding: 20px 50px 20px;
+    color: #f3f3f3;
+    float: left;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+#button .wybieracz:hover
+{
+    background-color: #f3f3f3;
+    color: #101010;
+}
+
+.logo, .podlogo
+{
+    font-family: "Verdana Regular";
+    font-weight: 0px;
+    position: absolute;
+    padding-left: 1.5%;
+    animation: wejscie;
+    animation-duration: 2s;
+}
+
+.logo
+{
+    font-size: 30pt;
+    letter-spacing: 10pt;
+}
+
+.podlogo
+{
+    padding-top: 4% ;
+    font-size: 15pt;
+    letter-spacing: 5pt;
+}
+
+/* Tabela */
+
+table
+{
+   color: #f3f3f3; 
+}
+
+.kopia
+{
+    text-align: right;
+    padding: 20px 50px 20px;
+}
+
+.fade
+{
+    background-image: url("https://cdn.discordapp.com/attachments/957350498028126289/957350702525595758/opisgoldenremixy.png");
+    width: 450px;
+    height: 350px;
+    background-size: 450px 350px;
+}
+
+.fade2
+{
+    background-image: url("https://cdn.discordapp.com/attachments/957350498028126289/957351771448156271/jmaopis.png");
+    width: 450px;
+    height: 350px;
+    background-size: 450px 350px;
+}
+
+.fade3
+{
+    background-image: url("https://cdn.discordapp.com/attachments/957350498028126289/958783224966967396/eclipseopis.png");
+    width: 450px;
+    height: 350px;
+    background-size: 450px 350px;
+}
+
+.fade4
+{
+    background-image: url("https://cdn.discordapp.com/attachments/957350498028126289/957391264414855178/futuraopis.png");
+    width: 450px;
+    height: 350px;
+    background-size: 450px 350px;
+}
+
+.image
+{
+    width: 450px;
+    height: 350px;
+    transition: 0.8s;
+}
+
+.fade img:hover
+{
+    opacity: 0;
+}
+
+.image:hover
+{
+    opacity: 0;
+}
+
+/* ------ */
+@keyframes wejscie 
+{
+    from
+    {
+        opacity: 0;
+    }
+        
+    to
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes fade2
+{
+    from
+    {
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+    }
+}
+
+a:link
+{
+    color: #f3f3f3;
+}
+
+a:visited
+{
+    color: #f3f3f3;
+}
+
+a
+{
+    color: #f3f3f3;
+}
